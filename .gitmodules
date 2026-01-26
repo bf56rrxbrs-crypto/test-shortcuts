@@ -1,0 +1,3 @@
+[submodule "let_him_cook"]
+	path = let_him_cook
+	url = https://gitlab.com/labrats-group/let_him_cook.git
