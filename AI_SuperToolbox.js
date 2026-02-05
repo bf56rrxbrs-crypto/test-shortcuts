@@ -833,7 +833,16 @@ function generatePromptForTool(tool, text) {
     "reply": "Generate professional reply options for:\n\n",
     "improve": "Improve the clarity and quality of:\n\n",
     "translate": "Translate this text:\n\n",
-    "explain": "Explain this clearly:\n\n"
+    "explain": "Explain this clearly:\n\n",
+    "grammar": "Check grammar and fix any errors in:\n\n",
+    "email": "Draft a professional email about:\n\n",
+    "brainstorm": "Generate creative ideas for:\n\n",
+    "code_explain": "Explain the following code in plain English:\n\n",
+    "rewrite_professional": "Rewrite the following text in a professional tone:\n\n",
+    "rewrite_casual": "Rewrite the following text in a casual, friendly tone:\n\n",
+    "expand": "Expand on the following idea with more details:\n\n",
+    "shorten": "Make the following text more concise:\n\n",
+    "keypoints": "Extract the key points from:\n\n"
   };
   
   return (toolPrompts[tool] || "Process: ") + text;
