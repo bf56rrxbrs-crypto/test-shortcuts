@@ -2,6 +2,19 @@
 
 A comprehensive AI-powered toolbox with 80+ tools for text processing, code analysis, creative writing, translation, and data extraction on iPhone using Claude API and the Scriptable app.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![iOS](https://img.shields.io/badge/iOS-14%2B-blue)](https://www.apple.com/ios/)
+[![Scriptable](https://img.shields.io/badge/Scriptable-Required-orange)](https://scriptable.app/)
+[![Claude API](https://img.shields.io/badge/Claude-Sonnet%204-purple)](https://www.anthropic.com/)
+
+## 📚 Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get started in 5 minutes
+- **[Usage Examples](EXAMPLES.md)** - Real-world examples and workflows
+- **[Shortcuts Guide](shortcuts/README.md)** - Setup prebuilt shortcuts
+- **[Contributing](CONTRIBUTING.md)** - Help improve the project
+- **[Changelog](CHANGELOG.md)** - Version history and updates
+
 ## Features
 
 - **80+ AI-Powered Tools** organized into 8 categories
@@ -215,3 +228,15 @@ For issues or questions, please open an issue on GitHub.
 ## Version
 
 Current version: 1.0.0
+
+## Documentation
+
+- [Quick Start Guide](QUICKSTART.md) - Get up and running in 5 minutes
+- [Usage Examples](EXAMPLES.md) - See real-world examples
+- [Shortcuts Setup](shortcuts/README.md) - Install prebuilt shortcuts
+- [Contributing Guide](CONTRIBUTING.md) - Help improve the project
+- [Changelog](CHANGELOG.md) - Version history
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
