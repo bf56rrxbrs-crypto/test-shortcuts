@@ -1,0 +1,34 @@
+{
+  "name": "Draft Email",
+  "description": "Quickly compose a professional email",
+  "icon": "📧",
+  "tool": "email",
+  "shareSheet": false,
+  "acceptedTypes": [],
+  "actions": [
+    {
+      "type": "Ask for Input",
+      "prompt": "What should the email be about?",
+      "description": "Get email topic from user"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "email",
+        "text": "${input}"
+      }
+    },
+    {
+      "type": "Copy to Clipboard",
+      "description": "Copy drafted email"
+    },
+    {
+      "type": "Open App",
+      "app": "Mail",
+      "description": "Open Mail app to compose"
+    }
+  ],
+  "usage": "Run 'Draft Email' from shortcuts, describe topic, paste in Mail"
+}

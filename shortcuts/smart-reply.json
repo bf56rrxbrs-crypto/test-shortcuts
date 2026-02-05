@@ -1,0 +1,36 @@
+{
+  "name": "Smart Reply",
+  "description": "Generate professional reply options for messages",
+  "icon": "💬",
+  "tool": "reply",
+  "shareSheet": true,
+  "acceptedTypes": ["Text"],
+  "actions": [
+    {
+      "type": "Get Clipboard",
+      "description": "Get message to reply to"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "reply",
+        "text": "${clipboard}"
+      }
+    },
+    {
+      "type": "Split Text",
+      "description": "Split reply options by new line"
+    },
+    {
+      "type": "Choose from List",
+      "description": "User selects preferred reply"
+    },
+    {
+      "type": "Copy to Clipboard",
+      "description": "Copy selected reply"
+    }
+  ],
+  "usage": "Copy a message, run 'Smart Reply', select from options"
+}

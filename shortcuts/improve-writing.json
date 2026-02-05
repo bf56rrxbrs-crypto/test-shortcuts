@@ -1,0 +1,32 @@
+{
+  "name": "Improve Writing",
+  "description": "Enhance the quality and clarity of any text",
+  "icon": "✍️",
+  "tool": "improve",
+  "shareSheet": true,
+  "acceptedTypes": ["Text"],
+  "actions": [
+    {
+      "type": "Get text from Input",
+      "description": "Capture text to improve"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "improve",
+        "text": "${input}"
+      }
+    },
+    {
+      "type": "Copy to Clipboard",
+      "description": "Copy improved text"
+    },
+    {
+      "type": "Show Notification",
+      "message": "Improved text copied to clipboard!"
+    }
+  ],
+  "usage": "Select text, Share → 'Improve Writing'"
+}

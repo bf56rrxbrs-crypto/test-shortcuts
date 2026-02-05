@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-05",
+  "shortcuts": [
+    {
+      "id": "quick-summarize",
+      "name": "Quick Summarize",
+      "icon": "🎯",
+      "category": "Quick Tools",
+      "description": "Summarize any text from the Share Sheet or clipboard",
+      "configFile": "quick-summarize.json",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "grammar-check",
+      "name": "Grammar Check",
+      "icon": "✅",
+      "category": "Text & Writing",
+      "description": "Check and fix grammar in any text instantly",
+      "configFile": "grammar-check.json",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "smart-reply",
+      "name": "Smart Reply",
+      "icon": "💬",
+      "category": "Quick Tools",
+      "description": "Generate professional reply options for messages",
+      "configFile": "smart-reply.json",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "translate-text",
+      "name": "Translate Text",
+      "icon": "🌍",
+      "category": "Language & Translation",
+      "description": "Quick translation to any language",
+      "configFile": "translate-text.json",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "code-explainer",
+      "name": "Code Explainer",
+      "icon": "🔧",
+      "category": "Code & Technical",
+      "description": "Explain code snippets in plain English",
+      "configFile": "code-explainer.json",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "improve-writing",
+      "name": "Improve Writing",
+      "icon": "✍️",
+      "category": "Text & Writing",
+      "description": "Enhance the quality and clarity of any text",
+      "configFile": "improve-writing.json",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "draft-email",
+      "name": "Draft Email",
+      "icon": "📧",
+      "category": "Quick Tools",
+      "description": "Quickly compose a professional email",
+      "configFile": "draft-email.json",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "creative-ideas",
+      "name": "Creative Ideas",
+      "icon": "💡",
+      "category": "Creative & Ideas",
+      "description": "Generate creative ideas for any topic",
+      "configFile": "creative-ideas.json",
+      "difficulty": "Easy"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Quick Tools",
+      "description": "Fast, everyday tasks",
+      "count": 3
+    },
+    {
+      "name": "Text & Writing",
+      "description": "Improve and refine your writing",
+      "count": 2
+    },
+    {
+      "name": "Code & Technical",
+      "description": "Programming and technical help",
+      "count": 1
+    },
+    {
+      "name": "Language & Translation",
+      "description": "Multi-language support",
+      "count": 1
+    },
+    {
+      "name": "Creative & Ideas",
+      "description": "Brainstorming and creativity",
+      "count": 1
+    }
+  ],
+  "totalShortcuts": 8
+}

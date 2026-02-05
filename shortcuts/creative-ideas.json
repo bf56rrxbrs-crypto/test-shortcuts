@@ -1,0 +1,30 @@
+{
+  "name": "Creative Ideas",
+  "description": "Generate creative ideas for any topic",
+  "icon": "💡",
+  "tool": "brainstorm",
+  "shareSheet": false,
+  "acceptedTypes": [],
+  "actions": [
+    {
+      "type": "Ask for Input",
+      "prompt": "What topic do you need ideas for?",
+      "description": "Get topic from user"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "brainstorm",
+        "text": "${input}"
+      }
+    },
+    {
+      "type": "Show Result",
+      "display": "Scrolling Text",
+      "description": "Display generated ideas"
+    }
+  ],
+  "usage": "Run shortcut, enter topic, get creative ideas"
+}

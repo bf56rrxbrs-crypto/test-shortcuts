@@ -1,0 +1,32 @@
+{
+  "name": "Grammar Check",
+  "description": "Check and fix grammar in any text instantly",
+  "icon": "✅",
+  "tool": "grammar",
+  "shareSheet": true,
+  "acceptedTypes": ["Text"],
+  "actions": [
+    {
+      "type": "Get text from Input",
+      "description": "Capture text to check"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "grammar",
+        "text": "${input}"
+      }
+    },
+    {
+      "type": "Copy to Clipboard",
+      "description": "Copy fixed text"
+    },
+    {
+      "type": "Show Notification",
+      "message": "Grammar checked! Fixed text copied to clipboard."
+    }
+  ],
+  "usage": "Select text, Share → 'Grammar Check'"
+}

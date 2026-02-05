@@ -1,0 +1,28 @@
+{
+  "name": "Quick Summarize",
+  "description": "Summarize any text from the Share Sheet or clipboard",
+  "icon": "🎯",
+  "tool": "summarize",
+  "shareSheet": true,
+  "acceptedTypes": ["Text", "Safari web pages"],
+  "actions": [
+    {
+      "type": "Get text from Input",
+      "description": "Capture text from Share Sheet"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "summarize",
+        "text": "${input}"
+      }
+    },
+    {
+      "type": "Show Result",
+      "description": "Display the summary"
+    }
+  ],
+  "usage": "Select any text, tap Share, choose 'Quick Summarize'"
+}
