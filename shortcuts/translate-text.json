@@ -1,0 +1,38 @@
+{
+  "name": "Translate Text",
+  "description": "Quick translation to any language",
+  "icon": "🌍",
+  "tool": "translate",
+  "shareSheet": true,
+  "acceptedTypes": ["Text"],
+  "actions": [
+    {
+      "type": "Get text from Input",
+      "description": "Capture text to translate"
+    },
+    {
+      "type": "Ask for Input",
+      "prompt": "Translate to which language?",
+      "default": "Spanish"
+    },
+    {
+      "type": "Set Variable",
+      "name": "Combined Text",
+      "value": "Translate to ${language}: ${input}"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "translate",
+        "text": "${combined}"
+      }
+    },
+    {
+      "type": "Show Result",
+      "description": "Display translation"
+    }
+  ],
+  "usage": "Select text, Share → 'Translate Text', enter target language"
+}

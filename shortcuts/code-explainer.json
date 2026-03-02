@@ -1,0 +1,29 @@
+{
+  "name": "Code Explainer",
+  "description": "Explain code snippets in plain English",
+  "icon": "🔧",
+  "tool": "code_explain",
+  "shareSheet": true,
+  "acceptedTypes": ["Text"],
+  "actions": [
+    {
+      "type": "Get text from Input",
+      "description": "Capture code snippet"
+    },
+    {
+      "type": "Run Script",
+      "script": "AI SuperToolbox",
+      "parameters": {
+        "action": "process",
+        "tool": "code_explain",
+        "text": "${input}"
+      }
+    },
+    {
+      "type": "Show Result",
+      "display": "Scrolling Text",
+      "description": "Display explanation"
+    }
+  ],
+  "usage": "Copy code, Share → 'Code Explainer'"
+}
